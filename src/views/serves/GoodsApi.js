@@ -36,5 +36,3 @@ export const deldata = (id) => delet(`/api/v1/admin/product/${id}`)
 // 根据ID获取单条数据
 export const getonlydata = (id) => get(`api/v1/admin/product/${id}`)
 
-// 后台中商品分类
-export const datacatlist = ()=>get(`/api/v1/admin/productcategory`)
