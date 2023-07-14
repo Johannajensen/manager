@@ -2,7 +2,7 @@
  * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
  * @Date: 2023-06-30 21:47:07
  * @LastEditors: Johannjensen johannajensen1@gmail.com
- * @LastEditTime: 2023-07-13 21:26:31
+ * @LastEditTime: 2023-07-14 09:15:01
  * @FilePath: \manage\src\views\Goods.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -59,10 +59,7 @@ watch(currentPage, (v) => {
   currentPage.value = v
   GetGoodsApi(v)
 })
-// 商品分类
-// datacatlist().then(res => {
-//   console.log(res);
-// })
+
 
 const labelPosition = ref('right')
 
@@ -172,8 +169,6 @@ const del = async (id) => {
 // 点击搜索按钮 有BUG
 const search = async () => {
   GetGoodsApi(currentPage.value, formLabelAlign.name)
-
-
 }
 </script>
 <template>

@@ -24,7 +24,6 @@ const handleAvatarSuccess: UploadProps['onSuccess'] = (
     uploadFile
 ) => {
     imageUrl.value = URL.createObjectURL(uploadFile.raw!)
-    console.log(response);
     emits('uploadEnd', baseurl + response.data) // 上传成功后利用事件派发将文件派发出去
 
 }
