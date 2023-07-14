@@ -1,0 +1,17 @@
+[33mcommit 89e4de2c8ca210b7366cb41efec3a537870a7a4f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Johannjensen <johannajensen1@gmail.com>
+Date:   Fri Jul 14 09:37:33 2023 +0800
+
+    后台商品分类页面完成
+
+[33mcommit 73f16008e141de66770f745115d67a0e831627f3[m
+Author: Johannjensen <johannajensen1@gmail.com>
+Date:   Fri Jul 14 07:53:25 2023 +0800
+
+    测试，商品分类完成一半
+
+[33mcommit b0801626fbb9d4111a97529fd3f8de5afda44cea[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Johannjensen <johannajensen1@gmail.com>
+Date:   Thu Jul 13 20:28:59 2023 +0800
+
+    我目前写的vue后台管理首页和看板已经完成
