@@ -228,6 +228,7 @@ const secondmap = () => {
     </div>
   </div>
   <div ref="message" class="message"></div>
+  <div style="height: 100px;"></div>
 </template>
 <style scoped>
 .map {
@@ -287,5 +288,10 @@ canvas {
   border-radius: 30px;
   height: 500px;
   margin-top: 20px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  height: 500px;
+  overflow: hidden;
 }
 </style>
